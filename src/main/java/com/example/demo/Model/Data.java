@@ -8,10 +8,11 @@ import jakarta.persistence.*;
 public class Data {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long rollno;
     private Long id;
     private String name;
     private Long marks;
     private String country;
-    @Version
-    private Long version;
+//    @Version
+//    private Long version;
 }
