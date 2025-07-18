@@ -1,0 +1,7 @@
+DATE,DAY,TASK ASSIGN DATE,TASK DELIVERED DATE,TASK
+10-07-2025,DAY 1,10-07-2025,10-07-2025,Documentation and Overview of MERAMS
+11-07-2025,DAY 2 ,11-07-2025,11-07-2025,Overview of RWFIS and creating POJO
+14-07-2025,DAY 3,14-07-2025,14-07-2025,Implementation of soft deletion instead of permanent delete
+15-07-2025,DAY 4,15-07-2025,15-07-2025,Created DTO for responses (REST Api)
+16-07-2025,DAY5 ,16-07-2025,16-07-2025,Implemented API endpoint /rsi-id/{id} to fetch data by rsiId and return a mapped DTO response.
+17-07-2025,DAY6,17-07-2025,17-07-2025,Adding logging and Exception handling
