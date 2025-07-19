@@ -77,11 +77,6 @@ public class BatchConfig{
             }
         };
     }
-
-
-
-
-
     @Bean
     public Step step1(JobRepository jobRepository, PlatformTransactionManager transactionManager) {
         return new StepBuilder("step1", jobRepository)
